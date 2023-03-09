@@ -1,0 +1,206 @@
+body {
+    max-width: 100%;
+    max-height: 100%;
+    background-color: hsl(257, 40%, 49%);
+    background-image: url(../SRC/images/bg-desktop.svg);
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.huddle img {
+    position: absolute;
+    width: 200px;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+.layout {
+    position: absolute;
+    top: 130px;
+    margin-left: 50px;
+}
+
+.layout img {
+    width: 700px;
+    height: 400px;
+}
+
+.titulo {
+    position: absolute;
+    margin-top: 165px;
+    margin-left: 810px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 35px;
+    color: #ffffff;
+    width: 400px;
+}
+
+.sub-titulo {
+    position: absolute;
+    margin-top: 280px;
+    margin-left: 810px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    color: #ffffff;
+    width: 440px;
+}
+
+.botao {
+    position: absolute;
+    margin-top: 370px;
+    margin-left: 810px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: hsl(257, 40%, 49%);
+    border: solid;
+    border-radius: 50px;
+    background-color: #ffffff;
+    width: 150px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.botao:hover {
+    background-color: hsl(300, 69%, 71%);
+    transition: 0.3s;
+    color: #ffffff;
+    border-color: hsl(300, 69%, 71%);
+}
+
+.social a {
+    font-size: 25px;
+}
+
+.social i {
+    color: #ffffff;
+    border: solid 1px;
+    border-radius: 100px;
+    width: 40px;
+    height: 40px;
+}
+
+.fa-facebook-f, .fa-instagram, .fa-twitter-square {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.fa-facebook-f {
+    margin-left: 1100px;
+    margin-top: 600px;
+}
+
+.fa-facebook-f:hover {
+    background-color: hsl(300, 69%, 71%);
+    transition: 0.3s;
+    border-color: hsl(300, 69%, 71%);
+}
+
+.fa-twitter-square {
+    margin-left: 1150px;
+    margin-top: 600px;
+}
+
+.fa-twitter-square:hover {
+    background-color: hsl(300, 69%, 71%);
+    transition: 0.3s;
+    border-color: hsl(300, 69%, 71%);
+}
+
+.fa-instagram {
+    margin-left: 1200px;
+    margin-top: 600px;
+}
+
+.fa-instagram:hover {
+    background-color: hsl(300, 69%, 71%);
+    transition: 0.3s;
+    border-color: hsl(300, 69%, 71%);
+}
+
+@media (max-width: 320px) {
+    body {
+        background-image: url(../SRC/images/bg-mobile.svg);
+    }
+
+    .huddle img {
+        width: 80px;
+        margin-left: 15px;
+        top: -30px;
+    }
+
+    .layout {
+        top: 50px;
+        width: 32px;
+        height: 150px;
+        margin-left: 15px;
+    }
+
+    .layout img {
+        width: 290px;
+        height: 200px;
+        position: absolute;
+    }
+
+    .titulo {
+        top: 90px;
+        margin-left: 60px;
+        font-size: 20px;
+        width: 240px;
+
+    }
+
+    .sub-titulo {
+        top: 40px;
+        margin-left: 60px;
+        width: 190px;
+        font-size: 10px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+    }
+
+    .botao {
+        top: 50px;
+        margin-left: 80px;
+        width: 150px;
+        height: 30px;
+        font-size: 10px;
+    }
+
+    .social a {
+        font-size: 10px;
+    }
+
+    .social i {
+        color: #ffffff;
+        border: solid 1px;
+        border-radius: 100px;
+        width: 20px;
+        height: 20px;
+    }
+
+    .fa-facebook-f {
+        margin-top: 0px;
+        top: 500px;
+        margin-left: 120px;
+    }
+
+    .fa-instagram {
+        margin-top: 0px;
+        top: 500px;
+        margin-left: 145px;
+    }
+
+    .fa-twitter-square {
+        margin-top: 0px;
+        top: 500px;
+        margin-left: 170px;
+    }
+}
